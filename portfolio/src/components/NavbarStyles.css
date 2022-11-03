@@ -24,7 +24,9 @@
     font-size: 1.2 rem;
     font-weight :500;
 }
-
+.logo{
+    max-width: 200px;
+}
 
 
 @media screen and (max-width: 1040px) {
