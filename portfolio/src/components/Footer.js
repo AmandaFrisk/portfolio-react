@@ -2,7 +2,7 @@ import "./FooterStyles.css"
 
 import React from 'react'
 
-import {FaPhone, FaMailBulk, FaFacebook, FaLinkedin} from "react-icons/fa"
+import {FaPhone, FaMailBulk, FaLinkedin} from "react-icons/fa"
 
 
 const Footer = () => {
@@ -21,8 +21,9 @@ const Footer = () => {
             </div>
             <div className="right">
                 <div className="social">
-                    <FaFacebook size={30} style={{color: "#fff" , marginRight: "1rem"}} />
+                    <a href="https://www.linkedin.com/in/amanda-frisk-dev/">
                     <FaLinkedin size={30} style={{color: "#fff" , marginRight: "1rem"}} />
+                    </a>
                 </div>
             </div>
         </div>
