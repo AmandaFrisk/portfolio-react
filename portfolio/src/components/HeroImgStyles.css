@@ -19,9 +19,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    opacity: .5;
+    opacity: .7;
     /* background-color: rgba(49, 143, 221, 0.103); */
-    background-color: rgba(79, 138, 161, 0.986)
+    background-color: rgba(3, 31, 42, 0.986)
 }
 
 .hero{
@@ -35,7 +35,8 @@
     top: 50%;
     left: 50%;
     text-align : center;
-    background-color: rgba(0, 0, 0, 0.369);
+    background-color: rgba(0, 0, 0, 0.848);
+    width: 100%;
 }
 
 .hero .content h1{

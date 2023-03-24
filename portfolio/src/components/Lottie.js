@@ -11,6 +11,7 @@ const Lottie = () => {
           className="player"
           loop
           autoplay
+          style={{ height: '400px', width: '400px'}}
         />
   
       </div>

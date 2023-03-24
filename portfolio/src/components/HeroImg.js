@@ -6,17 +6,20 @@ import IntroImg from "../assets/paint.jpeg"
 import Lottie from "../components/Lottie.js"
 const HeroImg = () => {
   return (
+    
   <div className ="hero">
     <div className="mask">
       <img className="intro-img"
       src={IntroImg} alt="cpu background" /> 
     </div>
     <div className="content">
-        <p>HI, I'M AMANDA FRISK</p>
+        <p>AMANDA FRISK</p>
         <h1> FULL STACK DEVELOPER</h1>
         <Lottie/>
     </div>
     </div>
+    
+    
   )
 }
 

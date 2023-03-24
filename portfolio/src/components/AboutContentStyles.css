@@ -9,10 +9,13 @@
 }
 
 .about .left{
-text-align:center;
-margin:auto;
-padding: 1rem;
-max-width: 350px;
+/* text-align:center; */
+/* margin:auto; */
+/* padding: 1rem; */
+display: flex;
+align-items: center;
+justify-content: center;
+max-width: 600px;
 }
 /* 
 .about .left p h3{ 
@@ -32,8 +35,8 @@ max-width: 350px;
     text-align:center;
 } */
 
- .right .self-img{
+ /* .right .self-img{
     max-width: 90%;
     border-radius:50%
-} 
+}  */
 
