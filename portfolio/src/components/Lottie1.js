@@ -1,9 +1,9 @@
 import "./LottieStyles.css"
 import { Player } from '@lottiefiles/react-lottie-player';
 
-const Lottie = () => {
+const Lottie1 = () => {
     return (
-      <div className='lottie-container'>
+      <div className='lottie1-container'>
         
   
         <Player
@@ -18,4 +18,4 @@ const Lottie = () => {
     )
   }
   
-  export default Lottie
+  export default Lottie1

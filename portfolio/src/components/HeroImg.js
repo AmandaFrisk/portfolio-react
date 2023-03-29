@@ -3,7 +3,7 @@ import React from 'react'
 // import IntroImg from "../assets/intro.jpg"
 import IntroImg from "../assets/paint.jpeg"
 // import {Link} from "react-router-dom"
-import Lottie from "../components/Lottie.js"
+import Lottie from "./Lottie1.js"
 const HeroImg = () => {
   return (
     
