@@ -6,5 +6,24 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color:white;
+}
+
+.current{
+    color:rgb(15, 243, 163);
+    font-size: 50px;
+}
+
+.gsal-info .h3 .gsal-view{
+    color: black;
+}
+
+.gsal-view{
+    color: red;
+    font-size: 20px;
+}
+.gsal-img{
+    max-width: 350px;
+    max-height: 350px;
+    
 }
