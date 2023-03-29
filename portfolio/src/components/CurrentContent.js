@@ -2,6 +2,8 @@ import "./CurrentContentStyles.css"
 import React from 'react'
 // import IntroImg from "../assets/paint.jpeg"
 import gsal from "../assets/gsal.png"
+import python from "../assets/python.jpeg"
+import scrum from "../assets/scrum.png"
 
 const CurrentContent = () => {
   return (
@@ -39,6 +41,18 @@ const CurrentContent = () => {
                   >Github Repo </a>
             </div>
           </div>
+      </div>
+      <div>
+      <div className="python-container">
+            <div className="python-img">
+           <img 
+             src={python} alt="Python Logo" /> 
+            </div> 
+            <div className="scrum-img">
+           <img 
+             src={scrum} alt="Scrum Master Logo" /> 
+            </div>          
+      </div>
       </div>
     </div>  
     </>
