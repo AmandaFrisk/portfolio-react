@@ -20,6 +20,8 @@ const HeroImg = () => {
         target="_blank"
         rel="noreferrer"
         >Resume</a>
+
+    
         <Lottie/>
     </div>
     </div>

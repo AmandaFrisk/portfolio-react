@@ -4,6 +4,7 @@ import React, {useState} from 'react'
 import {Link} from "react-router-dom"
 import {FaBars, FaTimes} from "react-icons/fa"
 import logo from "../assets/logo.png"
+
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -30,7 +31,7 @@ const Navbar = () => {
             <Link to ="/">Home</Link>
         </li>
         <li>
-            <Link to ="/project">Project</Link>
+            <Link to ="/project" smooth duration={500}>Project</Link>
         </li>
         <li>
             <Link to ="/about">About</Link>
