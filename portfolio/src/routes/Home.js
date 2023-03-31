@@ -1,21 +1,21 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import HeroImg from '../components/HeroImg'
+// import HeroImg from '../components/HeroImg'
 import Footer from "../components/Footer"
-import Project from "../routes/Project"
-import About from "../routes/About"
-import Current from "../routes/Current"
-import Contact from "../routes/Contact"
+// import Project from "../routes/Project"
+// import About from "../routes/About"
+// import Current from "../routes/Current"
+// import Contact from "../routes/Contact"
 
 const Home = () => {
   return (
     <div>
     <Navbar/>
-    <HeroImg />
-    <About />
+    {/* <HeroImg /> */}
+    {/* <About />
     <Current />
     <Project />
-    <Contact/>
+    <Contact/> */}
     <Footer />
     </div>
   )

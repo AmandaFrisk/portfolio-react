@@ -1,4 +1,5 @@
-import "./HeroImgStyles.css"
+// import "./HeroImgStyles.css"
+
 import React from 'react'
 // import IntroImg from "../assets/intro.jpg"
 import IntroImg from "../assets/paint.jpeg"
@@ -13,7 +14,7 @@ const HeroImg = () => {
       src={IntroImg} alt="paint background" /> 
     </div>
     <div className="content">
-        <p>AMANDA FRISK</p>
+        <p className="text-6xl font-bold font-signature text-white ">Amanda Frisk</p>
         <h1> FULL STACK DEVELOPER</h1>
         
         <a href ="https://docs.google.com/document/d/1R32tqslheIcAO2eAAmDLlt-tswckJbZFXi1uF5uy-u4/edit?usp=sharing" 
