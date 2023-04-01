@@ -89,7 +89,7 @@ const Navbar = () => {
   
   return (
                         //  -justify along main axis w/ equal space between   w100% h80px               -align items along the center of the container's cross axis
-    <div className="flex justify-between item-center w-full h-20 px-4 text-white bg-black fixed"> 
+    <div className="flex justify-between item-center w-full h-25 px-4 text-white bg-black fixed"> 
       <div className="ml-2 ">
       <Link to="/">
         <img src={logo} alt="logo"className="w-24 h-24 "></img>
