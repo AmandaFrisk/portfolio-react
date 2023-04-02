@@ -8,10 +8,10 @@ const Lottie2 = () => {
   
         <Player
           src='https://assets2.lottiefiles.com/packages/lf20_uhoBnYFtuw.json'
-          className="player"
+          className="player mx-auto w-1 h-1"
           loop
           autoplay
-          style={{ height: '400px', width: '400px'}}
+          style={{ height: '100px', width: '100px'}}
         />
   
       </div>

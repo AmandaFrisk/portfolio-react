@@ -3,20 +3,20 @@
 import React from 'react'
 // import IntroImg from "../assets/intro.jpg"
 // import {Link} from "react-router-dom"
-// import Lottie from "./Lottie1.js"
+import Lottie1 from "./Lottie1.js"
 import Lottie3 from "./Lottie3.js"
 
 const Home = () => {
   return (
     // name is for smooth scroll
   <div name="home"
-   className="h-screen w-full bg-black bg-gradient-to-b from-black to-teal-600">
+   className="h-screen w-full bg-white">
     
     
-    {/* <Lottie/> */}
+    <Lottie1/>
     <div className="max-w-screen-lg mx-auto flex flex-col item-center justify-center h-full px-4 
     ">
-    <h2 className="text-4xl sm:text-7xl font-bold text-white"> I'm 
+    <h2 className="text-4xl sm:text-7xl font-bold text-black"> I'm 
    <span> Amanda</span> 
     , a Full Stack Developer. </h2>
     <p className='py-4 max-w-md'>I have a passion for collaborating with innovative minds to solve problem. </p>

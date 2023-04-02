@@ -3,7 +3,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const Lottie1 = () => {
     return (
-      <div className=' w -fit h-fit bottom-0'>
+      <div className=' w -fit h-fit bottom-0  '>
         
   
         <Player
@@ -12,7 +12,7 @@ const Lottie1 = () => {
           className="player"
           // loop
           autoplay
-          style={{ height: '200px', width: '200px'}}
+          style={{ height: '150px', width: '150px'}}
         />
   
       </div>

@@ -13,6 +13,7 @@ function App() {
       <div>
         <NavBar/>
         <Home/>
+        
       </div>
      {/* <Routes>
       <Route path="/" element={<Home/>}/>
