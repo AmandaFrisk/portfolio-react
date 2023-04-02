@@ -1,7 +1,9 @@
 import React from "react";
 // import "./index.css"
-import Home from "./components/Home.js"
+
 import NavBar from "./components/Navbar.js"
+import Home from "./components/Home.js"
+import AboutContent from "./components/AboutContent.js"
 
 // import Project from "./routes/Project";
 // import About from "./routes/About";
@@ -13,7 +15,7 @@ function App() {
       <div>
         <NavBar/>
         <Home/>
-        
+        <AboutContent/>
       </div>
      {/* <Routes>
       <Route path="/" element={<Home/>}/>

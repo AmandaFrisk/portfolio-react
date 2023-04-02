@@ -19,7 +19,7 @@ const Home = () => {
     <h2 className="text-4xl sm:text-7xl font-bold text-black"> I'm 
    <span> Amanda</span> 
     , a Full Stack Developer. </h2>
-    <p className='py-4 max-w-md'>I have a passion for collaborating with innovative minds to solve problem. </p>
+    <p className='py-4 text-lg text-green-500'>I have a passion for collaborating with innovative minds to solve problem. </p>
     <div className="bg-black outline-1 w-fit h-fit rounded hover:bg-teal-400 " >
       <a className="text-white p-4 hover:text-black"href ="https://docs.google.com/document/d/1R32tqslheIcAO2eAAmDLlt-tswckJbZFXi1uF5uy-u4/edit?usp=sharing" 
         target="_blank"

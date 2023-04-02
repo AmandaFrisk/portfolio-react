@@ -89,7 +89,7 @@ const Navbar = () => {
   
   return (
                         //  -justify along main axis w/ equal space between   w100% h80px               -align items along the center of the container's cross axis
-    <div className="flex justify-between item-center w-full h-25 px-4 text-white bg-black fixed"> 
+    <div className="flex justify-between item-center w-full h-25 px-4 text-white bg-black fixed z-20"> 
       <div className="ml-2 ">
       <Link to="/">
         <img src={logo} alt="logo"className="w-24 h-24 "></img>
@@ -107,7 +107,7 @@ const Navbar = () => {
         
        </ul>
 {/* on click of hamburger menu- setNav to true */}
-       <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+       <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-30 text-gray-500 md:hidden ">
         {/* if true -open-              otherwise */}
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
        </div>

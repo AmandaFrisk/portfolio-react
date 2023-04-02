@@ -2,7 +2,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const Lottie3 = () => {
     return (
-      <div className='flex flex-col item-center justify-center hidden md:flex'>
+      <div className='flex flex-col item-center justify-center '>
         
   
         <Player
