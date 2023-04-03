@@ -12,8 +12,8 @@ const Home = () => {
   <div name="home"
    className="h-screen w-full bg-white">
     
-    
     <Lottie1/>
+    
     <div className="max-w-screen-lg mx-auto flex flex-col item-center justify-center h-full px-4 
     ">
     <h2 className="text-4xl sm:text-7xl font-bold text-black"> I'm 
