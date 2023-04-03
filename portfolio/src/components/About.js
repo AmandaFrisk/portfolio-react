@@ -1,15 +1,15 @@
-// import "./AboutContentStyles.css"
+// import "./AboutStyles.css"
 // import Lottie2 from "./Lottie2"
 import React from 'react'
 
 // import self from "../assets/selfimg.png"
-const AboutContent = () => {
+const About = () => {
   return ( 
   <div 
   name="about"
   className='w-full h-screen'>
-    <div className=''>
-      <h1 className='text-4xl inline border-b-4'>About</h1>
+    <div className='mb-2'>
+      <h1 className='text-4xl inline border-b-4 '>About</h1>
       
     {/* <Lottie2/> */}
     </div>
@@ -27,4 +27,4 @@ const AboutContent = () => {
   )
 }
 
-export default AboutContent
+export default About

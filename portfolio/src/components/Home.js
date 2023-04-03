@@ -14,7 +14,7 @@ const Home = () => {
     
     <Lottie1/>
     
-    <div className="max-w-screen-lg mx-auto flex flex-col item-center justify-center h-full px-4 
+    <div className="max-w-screen-lg mx-auto flex flex-col item-center justify-center h-full px-4 pt-40
     ">
     <h2 className="text-4xl sm:text-7xl font-bold text-black"> I'm 
    <span> Amanda</span> 

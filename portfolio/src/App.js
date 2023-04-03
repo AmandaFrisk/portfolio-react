@@ -3,8 +3,8 @@ import React from "react";
 
 import NavBar from "./components/Navbar.js"
 import Home from "./components/Home.js"
-import AboutContent from "./components/AboutContent.js"
-
+import About from "./components/About.js"
+// import InDevelopment from "./components/InDevelopment.js";
 // import Project from "./routes/Project";
 // import About from "./routes/About";
 // import Contact from "./routes/Contact";
@@ -15,7 +15,8 @@ function App() {
       <div>
         <NavBar/>
         <Home/>
-        <AboutContent/>
+        <About/>
+        {/* <InDevelopment/> */}
       </div>
      {/* <Routes>
       <Route path="/" element={<Home/>}/>

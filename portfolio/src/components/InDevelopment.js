@@ -1,11 +1,11 @@
-import "./CurrentContentStyles.css"
+// import "./CurrentContentStyles.css"
 import React from 'react'
 // import IntroImg from "../assets/paint.jpeg"
 import gsal from "../assets/gsal.png"
 import python from "../assets/python.jpeg"
 import scrum from "../assets/scrum.png"
 
-const CurrentContent = () => {
+const InDevelopment = () => {
   return (
     
   <>
@@ -63,4 +63,4 @@ const CurrentContent = () => {
   )
 }
 
-export default CurrentContent
+export default InDevelopment
