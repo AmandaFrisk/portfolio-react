@@ -10,12 +10,14 @@ const Home = () => {
   return (
     // name is for smooth scroll
   <div name="home"
-   className="h-screen w-full bg-white">
+   className="h-screen w-full
+
+   ">
     
     <Lottie1/>
     
     <div className="max-w-screen-lg mx-auto flex flex-col item-center justify-center h-full px-4 pt-40
-    ">
+ ">
     <h2 className="text-4xl sm:text-7xl font-bold text-black"> I'm 
    <span> Amanda</span> 
     , a Full Stack Developer. </h2>
