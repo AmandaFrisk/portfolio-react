@@ -6,13 +6,13 @@ const About = () => {
   return ( 
   <div 
   name="about"
-  className='w-full h-screen'
+  className='w-full h-screen -mt-18 -mb-16'
   >
-    <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+    <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
    
     
     <div>
-      <h2 className='text-4xl  flex flex-col items-center justify-center border-b-4 border-green-500  '>About</h2>
+      <h2 className='text-5xl  flex flex-col items-center justify-center border-b-4 border-green-500  '>About</h2>
       
       <p className='mt-10'>As a Software Developer and a seasoned Project Manager, I am thrilled to bring a unique blend of technical expertise and top-notch organization skills to any role. 
        Let's join forces and create something amazing together!

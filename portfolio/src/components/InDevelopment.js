@@ -14,7 +14,7 @@ const InDevelopment = () => {
   
     >
    <h2 className='text-4xl max-w-screen-lg mx-auto border-b-4 border-green-500 flex flex-col items-center justify-center '>In Development</h2>
-
+    <h3 className=' mx-auto flex flex-col items-center justify-center px-4 text-blue-400'>Projects and certifications I'm currently pursuing:</h3>
     <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 '>
         
         {/* <h2 className='text-4xl  border-r-4 border-green-500 pr-2 '>In Development</h2> */}
@@ -23,14 +23,14 @@ const InDevelopment = () => {
           <div >
             <div >
            <img 
-           className=' mx-auto max-w-md mt-16'
+           className=' mx-auto max-w-sm -mt-24 -mb-10'
              src={gsal} alt="Go Save A Life Logo" /> 
             </div>
-              <h6 > Go Save A Life is a non-profit in Colorado with a mission to help individuals in need of a kidney donation to connect with those willing to be a live donor.</h6>
+              <h6 > What began as my independent capstone for General Assembly has blossomed. Go Save A Life is a non-profit in Colorado with a mission to help individuals in need of a kidney donation to connect with those willing to be a live donor.</h6>
             
           </div>
           <div> 
-            <h3>I am the Lead Software Developer and Scrum Master for this non-profit's web development team. This project began as a solo passion project and my capstone for General Assembly. I have teamed up with a UX Designer and 3 Software Developers to continue building out the application.</h3>
+            
               <div>
                 <a href ="https://gsal-app.herokuapp.com/" 
                   target="_blank"

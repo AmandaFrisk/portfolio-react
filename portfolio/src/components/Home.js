@@ -10,7 +10,7 @@ const Home = () => {
   return (
     // name is for smooth scroll
   <div name="home"
-   className="h-screen w-full
+   className="h-screen w-full -mb-24
 
    ">
     
